@@ -282,3 +282,296 @@
   line-height: 22px;
   color: #777777;
 }
+
+.first {
+  width: 100%;
+  padding: 16px 16px 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.first-card {
+  width: 460px;
+}
+
+.first-card-color {
+  background-color: #EA2E34;
+  border-radius: 10px;
+  padding: 180px 0;
+}
+
+.first-card-text {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 16px 68px 16px 16px;
+}
+
+.first-card-text h1 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+  color: #FFFFFF;
+}
+
+.first-card-text h2 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.019em;
+  color: #FFFFFF;
+  padding: 43px 0 16px 0;
+}
+
+.first-card-date, .second-card-date {
+  display: flex;
+  align-items: center;
+}
+
+.first-card-date img, .second-card-date img {
+  margin: 0 5px 0 13px;
+}
+
+.first-card-date p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #E3E3E3;
+}
+
+.second {
+  width: 100%;
+  padding: 12px 16px 24px 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.second-container {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.second-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-card-text {
+  width: 460px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 16px 52px 16px 16px;
+}
+
+.second-card-text h1 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+}
+
+.second-card-text h2 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.019em;
+  color: #000000;
+  padding: 43px 0 16px 0;
+}
+
+.second-card-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.second-card-color {
+  width: 472px;
+  padding: 180px 0;
+  background-color: #FFC7F3;
+  border-radius: 10px;
+}
+
+.second-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.second-ads {
+  width: 460px;
+  height: 920px;
+  padding-top: 418px;
+  background-color: #93FF82;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.second-ads h2 {
+  font-family: "Inter";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.second-ads h1 {
+  font-family: "Inter";
+  font-size: 49px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+}
+
+.third {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.third-ads {
+  width: 100%;
+  background-color: #93FF82;
+  text-align: center;
+  padding: 140.5px 0;
+}
+
+.third-ads h1 {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: 0em;
+}
+
+.third-ads h2 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.third-card {
+  width: 100%;
+  display: flex;
+}
+
+.third-card-text {
+  width: 460px;
+  background: #302C2C;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 16px 16px 24px;
+}
+
+.third-card-text h1 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+
+.third-card-text h2 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.third-card-color {
+  width: 948px;
+  background-color: #FFCB45;
+  border-radius: 10px;
+  padding: 280px 0;
+}
+
+.third-card-date p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.third-card-date {
+  display: flex;
+  writing-mode: vertical-rl;
+  margin-left: 55px;
+}
+
+.third-card-text-text {
+  width: 348px;
+}
+
+.third-card-date img {
+  margin: 13px 0 5px 0;
+}
+
+.third-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.fourth {
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fourth-card {
+  display: flex;
+}
+
+.fourth-card-add {
+  background-color: #93FF82;
+  border-radius: 10px;
+  width: 200px;
+  height: 140px;
+}
+
+.fourth-card-test {
+  background-color: #EA2E34;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+
+.fourth-card-test p {
+  transform: rotate(-90deg);
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.fourth-card-text {
+  background-color: #E3E3E3;
+  border-radius: 10px;
+  width: 1146px;
+}
+
+.fourth-card-text h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 110%;
+  color: #000000;
+  padding: 24px 66px 24px 36px;
+}
