@@ -2,6 +2,7 @@
 
 *{
     @include mixin.no-margin();
+    font-family: 'Inter';
 }
 
 
@@ -18,28 +19,21 @@
 
 .ads{
     width: 100%;
-    background-color: #93FF82;
-    border-radius: 10px;
-    padding: 120.5px 662px;
-    text-align: center;
+    @include mixin.ads-bg();
+    padding: 120.5px 0;
+    margin-bottom: 1.11111111%;
 }
 
 .ads h1{
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 48px;
+    @include mixin.ads();
+    font-size: 300%;
     line-height: 58px;
-    text-align: center;
-    color: #000000;
 }
 
-.asd h2{
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 24px;
+.ads h2{
+    @include mixin.ads();
+    font-size: 150%;
     line-height: 29px;
-    text-align: center;
-    color: #000000;
 }
 
 .header{
@@ -47,7 +41,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 16px 16px;
+    padding: 1.11111111%;
 }
 
 .header-first{
@@ -56,45 +50,60 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 24px;
+    padding: 0.9943182% 1.7045455%;;
+    gap: 271px;
 }
 
 .nav{
+    width: 65.589%;
     display: flex;
     gap: 37px;
-    width: 895px;
     justify-content: flex-end;
     align-items: center;
 }
 
 .nav-uls{
     display: flex;
-    gap: 56px;
+    gap: 47px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .dropdown{
-    font-family: 'Inter';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 120%;
     color: #FFFFFF;
     list-style-type: none;
 }
 
+.dropdown img{
+    vertical-align: middle;
+    padding-right: 12px;
+}
+
 .search{
-    width: 580px;
+    width: 65.023%;
     background-color: #302C2C;
     border-radius: 10px;
     border: none;
     padding: 14.5px 0;
-    background-image: url(dist/images/search.png);
+    background-image: url('dist/images/search.png');
+}
+
+.nav input::placeholder{
+    font-weight: 400;
+    font-size: 112.5%;
+    line-height: 120%;
+    color: #777777;
+    padding-left: 16px;
 }
 
 .header-second{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 25px;
 }
 
 .nav-btns{
@@ -104,14 +113,17 @@
     align-items: center;
 }
 
+.nav-btns img{
+    padding-left: 170px;
+}
+
 .nav-btn{
     padding: 12px 20px;
     background-color: #FFFFFF;
     border: 2px solid #808080;
     border-radius: 8px;
-    font-family: 'Inter';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 125%;
     line-height: 120%;
     color: #808080;
 }
@@ -145,7 +157,7 @@
 }
 
 .main-page{
-    padding: 16px;
+    padding: 1.11111111%;
     gap: 16px;
     display: flex;
     justify-content: space-between;
@@ -154,7 +166,7 @@
 
 .main-tags{
     width: 22.728%;
-    padding: 12px;
+    padding: 0.853%;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -169,9 +181,8 @@
 }
 
 .main-tags h3{
-    font-family: 'Inter';
     font-weight: 800;
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 110%;
     color: #000000;
     padding: 4px 0 12px 0;
@@ -190,7 +201,7 @@
 }
 
 .main-tag-photo{
-    width: 72px;
+    width: 24.328%;
     padding: 36px 0;
     background: #E3E3E3;
     border-radius: 10px;
@@ -201,9 +212,8 @@
     background: #93FF82;
     border: 1px solid #000000;
     border-radius: 6px;
-    font-family: 'Inter';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 87.5%;
     line-height: 17px;
     color: #000000;
 }
@@ -213,9 +223,8 @@
 }
 
 .main-tag-text p{
-    font-family: 'Inter';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 22px;
     color: #000000;
 }
@@ -228,6 +237,7 @@
     width: 52.273%;
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main-title-photo{
@@ -237,11 +247,9 @@
 }
 
 .main-title{
-    font-family: 'Inter';
     font-weight: 800;
-    font-size: 36px;
+    font-size: 225%;
     line-height: 110%;
-    font-feature-settings: 'liga' off;
     color: #000000;
 }
 
@@ -256,9 +264,8 @@
 }
 
 .main-news h1{
-    font-family: 'Inter';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 100%;
     line-height: 19px;
     color: #000000;
 }
@@ -269,17 +276,13 @@
 }
 
 .news-par p{
-    font-family: 'Inter';
-    font-size: 18px;
+    font-size: 112.5%;
     font-weight: 500;
     line-height: 25px;
     padding-bottom: 11px;
 }
 
 .news-par span{
-    font-family: 'Inter';
-    font-size: 18px;
-    font-weight: 500;
     line-height: 22px;
     color: #777777;
 }
@@ -294,7 +297,7 @@
 }
 
 .first-card{
-    width: 460px;
+    width: 32.6705%;
 }
 
 .first-card-color{
@@ -310,17 +313,15 @@
 }
 
 .first-card-text h1{
-    font-family: 'Inter';
     font-weight: 800;
-    font-size: 36px;
+    font-size: 225%;
     line-height: 110%;
     color: #FFFFFF;
 }
 
 .first-card-text h2{
-    font-family: 'Inter';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 120%;
     letter-spacing: -0.019em;
     color: #FFFFFF;
@@ -337,9 +338,8 @@
 }
 
 .first-card-date p{
-    font-family: 'Inter';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 75%;
     line-height: 140%;
     color: #E3E3E3;
 }
@@ -355,6 +355,7 @@
     display: flex;
     gap: 16px;
     flex-direction: column;
+    width: 66.1931818182%;
 }
 
 .second-card{
@@ -363,24 +364,22 @@
 }
 
 .second-card-text{
-    width: 460px;
+    width: 49.356223%;
     background: #FFFFFF;
     border-radius: 10px;
     padding: 16px 52px 16px 16px;
 }
 
 .second-card-text h1{
-    font-family: 'Inter';
     font-weight: 800;
-    font-size: 36px;
+    font-size: 225%;
     line-height: 110%;
     color: #000000;
 }
 
 .second-card-text h2{
-    font-family: 'Inter';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 120%;
     letter-spacing: -0.019em;
     color: #000000;
@@ -388,15 +387,14 @@
 }
 
 .second-card-text p{
-    font-family: 'Inter';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 75%;
     line-height: 140%;
     color: #000000;
 }
 
 .second-card-color{
-    width: 472px;
+    width: 50.64378%;
     padding: 180px 0;
     background-color: #FFC7F3;
     border-radius: 10px;
@@ -407,31 +405,25 @@
 }
 
 .second-ads{
-    width: 460px;
+    width: 32.6704545455%;
     height: 920px;
     padding-top: 418px;
-    background-color: #93FF82;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.second-ads h2{
-    font-family: 'Inter';
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
+    @include mixin.ads-bg();
 }
 
 .second-ads h1{
-    font-family: 'Inter';
-    font-size: 49px;
-    font-weight: 500;
+    @include mixin.ads();
+    font-size: 306.25%;
     line-height: 60px;
     letter-spacing: 0em;
 }
 
-
+.second-ads h2{
+    @include mixin.ads();
+    font-size: 156.25%;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
 
 .third{
     padding: 24px 16px;
@@ -443,22 +435,19 @@
 .third-ads{
     width: 100%;
     background-color: #93FF82;
-    text-align: center;
     padding: 140.5px 0;
 }
 
 .third-ads h1{
-    font-family: 'Inter';
-    font-size: 48px;
-    font-weight: 500;
+    @include mixin.ads();
+    font-size: 300%;
     line-height: 58px;
     letter-spacing: 0em;
 }
 
 .third-ads h2{
-    font-family: 'Inter';
-    font-size: 24px;
-    font-weight: 500;
+    @include mixin.ads();
+    font-size: 150%;
     line-height: 29px;
     letter-spacing: 0em;
 }
@@ -469,7 +458,7 @@
 }
 
 .third-card-text{
-    width: 460px;
+    width: 32.670454545%;
     background: #302C2C;
     border-radius: 10px;
     display: flex;
@@ -478,33 +467,30 @@
 }
 
 .third-card-text h1{
-    font-family: 'Inter';
     font-weight: 800;
-    font-size: 48px;
+    font-size: 300%;
     line-height: 110%;
     color: #FFFFFF;
     margin-bottom: 48px;
 }
 
 .third-card-text h2{
-    font-family: 'Inter';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 140%;
     color: #FFFFFF;
 }
 
 .third-card-color{
-    width: 948px;
+    width: 67.329545455%;
     background-color: #FFCB45;
     border-radius: 10px;
     padding: 280px 0;
 }
 
 .third-card-date p{
-    font-family: 'Inter';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 75%;
     line-height: 140%;
     color: #FFFFFF;
 }
@@ -516,7 +502,7 @@
 }
 
 .third-card-text-text{
-    width: 348px;
+    width: 82.86%;
 }
 
 .third-card-date img{
@@ -529,7 +515,7 @@
 
 .fourth{
     width: 100%;
-    padding: 8px 16px;
+    padding: 8px 16px 114px 16px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -542,8 +528,7 @@
 .fourth-card-add{
     background-color: #93FF82;
     border-radius: 10px;
-    width: 200px;
-    height: 140px;
+    width: 14.204545455%;
 }
 
 .fourth-card-test{
@@ -552,14 +537,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 4.2613636364%;
 }
 
 .fourth-card-test p{
     transform: rotate(-90deg);
-    font-family: 'Inter';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 150%;
     line-height: 100%;
     color: #FFFFFF;
 }
@@ -567,14 +551,108 @@
 .fourth-card-text{
     background-color: #E3E3E3;
     border-radius: 10px;
-    width: 1146px;
+    width: 81.392045455%;
+    padding: 24px 66px 24px 36px;
 }
 
+
 .fourth-card-text h1{
-    font-family: 'Inter';
     font-weight: 600;
-    font-size: 42px;
+    font-size: 262.5%;
     line-height: 110%;
     color: #000000;
-    padding: 24px 66px 24px 36px;
+}    
+
+.fifth{
+    width: 100%;
+    padding: 0 16px 8px 16px;
+    margin-top: -94px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.fifth-btn button{
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.019em;
+    color: #FFFFFF;
+    padding: 52px 0;
+}
+
+.fifth-color{
+    width: 100%;
+    background: #FFC7F3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 48px 121px 48px 97px;
+}
+
+.fifth-color h1{
+    font-weight: 600;
+    font-size: 450%;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+    padding-top: 32px;
+}
+
+.fifth-subscribe{
+    width: 100%;
+    background: #000000;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.fifth-subscribe input{
+    width: 60%;
+    background-color: #272727;
+    border-radius: 10px;
+    border: 0;
+}
+
+.subscribe-btn{
+    width: 38.236%;
+    background: #EA2E34;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 600;
+    font-size: 225%;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.019em;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.fifth-subscribe input::placeholder{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 225%;
+    line-height: 100%;
+    letter-spacing: -0.019em;
+    color: #BEBEBE;
+    padding: 32px;
+}
+
+.six{
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.six-left{
+    width: 32.6704545455%;
+}
+
+.six-right{
+    width: 66.1931818182%;
 }
