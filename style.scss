@@ -651,8 +651,170 @@
 
 .six-left{
     width: 32.6704545455%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 136px;
+    background-color: #000000;
+    border-radius: 10px;
 }
 
 .six-right{
     width: 66.1931818182%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 225%;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.six-left h1{
+    font-weight: 800;
+    font-size: 225%;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.six-left img{
+    width: 60%;
+}
+
+.six-right-top, .six-right-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.six-right h2{
+    font-weight: 800;
+}
+
+.six-right-bottom{
+    font-weight: 600;
+}
+
+.six-btn{
+    width: 35.556%;
+    background-color: #FFCB45;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 50%;
+    line-height: 110%;
+    text-align: center;
+    color: #000000;
+    padding: 14px 0;
+}
+
+.seven{
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.seven-first{
+    width: 66.1931818182%;
+    padding: 16px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seven-first-text{
+    width: 46.779%;
+}
+
+.seven-first-text h1{
+    font-weight: 800;
+    font-size: 225%;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.seven-first-button{
+    padding-top: 296px;
+    width: 35.556%;
+}
+
+.seven-btn{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 112.5%;
+    line-height: 110%;
+    text-align: center;
+    color: #000000;
+    padding: 14px 0;
+}
+
+.seven-second{
+    width: 10.5113636364%;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 36px 36px 36px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seven-second h2{
+    font-weight: 600;
+    font-size: 175%;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.019em;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.seven-third{
+    width: 21.023%;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.seven-third img{
+    position: absolute;
+}
+
+.inst{
+    left: 15.2%;
+    top: 6.67%;
+}
+
+.telegram{
+    left: 68.9%;
+    top: 16.39%;
+}
+
+.facebook{
+    left: 60px;
+    top: 134px;
+}
+
+.vk{
+    left: 183px;
+    top: 186px;
+}
+
+.youtube{
+    left: 31.11%;
+    top: 82.58%;
+}
+
+.footer{
+    width: 100%;
+    padding: 52px 16px 0 16px;
 }
