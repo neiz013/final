@@ -21,7 +21,7 @@
     width: 100%;
     @include mixin.ads-bg();
     padding: 120.5px 0;
-    margin-bottom: 1.11111111%;
+    margin-bottom: 16px;
 }
 
 .ads h1{
@@ -36,12 +36,16 @@
     line-height: 29px;
 }
 
+.header-tablet{
+    display: none;
+}
+
 .header{
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 1.11111111%;
+    padding: 16px;
 }
 
 .header-first{
@@ -50,7 +54,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.9943182% 1.7045455%;;
+    padding: 14px 24px;
     gap: 271px;
 }
 
@@ -157,7 +161,7 @@
 }
 
 .main-page{
-    padding: 1.11111111%;
+    padding: 16px;
     gap: 16px;
     display: flex;
     justify-content: space-between;
@@ -166,7 +170,7 @@
 
 .main-tags{
     width: 22.728%;
-    padding: 0.853%;
+    padding: 12px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -201,7 +205,7 @@
 }
 
 .main-tag-photo{
-    width: 24.328%;
+    width: 72px;
     padding: 36px 0;
     background: #E3E3E3;
     border-radius: 10px;
@@ -817,4 +821,263 @@
 .footer{
     width: 100%;
     padding: 52px 16px 0 16px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 766px;
+        margin: auto;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .ads{
+        padding: 45px 0;
+        margin-bottom: 8px;
+    }
+
+    .header-tablet{
+        width: 100%;
+        padding: 12px 16px;
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+    }
+
+    .header-tablet-first{
+        width: 100%;
+        padding: 14px 12px 14px 16px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background-color: #000000;
+        border-radius: 10px;
+    }
+
+    .header-tablet-first input{
+        width: 48.9%;
+        background-color: #302C2C;
+        border-radius: 10px;
+        padding: 15px 190px 11px 16px;
+        border: 0;
+    }
+
+    .header-tablet-first input::placeholder{
+        font-weight: 400;
+        font-size: 112.5%;
+        line-height: 120%;
+        color: #777777;
+    }
+
+    .header-tablet-first ul{
+        font-weight: 400;
+        font-size: 112.5%;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    .header-tablet-second{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .header-tablet-second button{
+        background-color: #FFFFFF;
+        border: 2px solid #808080;
+        border-radius: 8px;
+        padding: 12px 17.9px;
+        font-weight: 400;
+        font-size: 125%;
+        line-height: 120%;
+        color: #808080;
+    }
+
+    .header-tablet-second button:nth-child(1){
+        background-color: #000000;
+        border: 2px solid #000000;
+        border-radius: 8px;
+        color: #FFFFFF;
+    }
+
+    .main-page{
+        padding: 12px 16px;
+        flex-direction: column;
+    }
+
+    .main-title{
+        order: -3;
+        width: 100%;
+        padding: 16px 16px 24px 16px;
+        box-shadow: none;
+    }
+
+    .main-tags{
+        width: 100%;
+        flex-direction: row;
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .main-tags-photo{
+        padding: 114px 0;
+    }
+
+    .main-tags h3{
+        padding: 12px 0 0 0;
+    }
+
+    .main-tags-photo-text{
+        width: 50%;
+    }
+
+    .main-tag-div{
+        width: 50%;
+        gap: 32px;
+    } 
+
+    .main-news{
+        width: 100%;
+
+    }
+
+    .first{
+        padding: 12px 16px;
+    }
+
+    .first-card:nth-child(3){
+        display: none;
+    }
+
+    .first-card{
+        width: 48.7%;
+        background-color: #000000;
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    .first-card-text h2, .second-card-text h2{
+        display: none;
+    }
+
+    .first-card-text, .second-card-text{
+        display: flex;
+        flex-direction: column;
+        padding: 12px 0 0 0;
+    }
+
+    .first-card-date, .second-card-date{
+        order: -7;
+    }
+
+    .first-card-color{
+        padding: 120px 0;
+    }
+
+    .first-card-text h1{
+        font-weight: 700;
+        font-size: 125%;
+        line-height: 100%;
+        color: #FFFFFF;
+        padding-top: 12px;
+    }
+
+    .second{
+        padding: 12px 16px;
+    }
+
+    .second-ads{
+        display: none;
+    }
+
+    .second-container{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .second-card, .second-card:nth-child(even){
+        flex-direction: column-reverse;
+        width: 48.7%;
+    }
+
+    .second-card-color{
+        padding: 141px 0;
+        width: 100%;
+    }
+
+    .second-card-text{
+        width: 100%;
+        padding: 12px;
+    }
+
+    .second-card-text h1{
+        font-weight: 700;
+        font-size: 125%;
+        line-height: 100%;
+        color: #000000;
+        padding-top: 12px;
+    }
+
+    .third-ads{
+        display: none;
+    }
+
+    .third{
+        padding: 12px 16px;
+        gap: 18px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .third-card, .third-card:nth-child(even){
+        flex-direction: column-reverse;
+        width: 48.7%;
+    }
+
+    .third-card-color{
+        width: 100%;
+        padding: 140px 0;
+    }
+
+    .third-card-text{
+        width: 100%;
+        padding: 12px;
+    }
+
+    .third-card-text h1{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 110%;
+        color: #FFFFFF;
+        width: 100%;
+        margin-bottom: 43px;
+    }
+
+    .third-card-text h2{
+        display: none;
+    }
+
+    .third-card-date{
+        writing-mode: unset;
+        margin-left: 0;
+    }
+
+    .third-card-date img{
+        margin: 0 5px 0 13px;
+    }
+
+    .third-card-text-text{
+        width: 100%;
+    }
+
+    // .footer{
+    //     display: none;
+    // }
 }
