@@ -1333,7 +1333,7 @@
   }
 
   .seven-second {
-    width: 164px;
+    width: 22.345%;
     padding: 30px 62px;
   }
 
@@ -1344,7 +1344,7 @@
   }
 
   .seven-third {
-    width: 554px;
+    width: 75.478%;
     padding: 318.5px 0;
   }
 
@@ -1385,5 +1385,159 @@
   .footer-tablet {
     display: flex;
     padding: 4px 16px 17px 16px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .container {
+    width: 375px;
+    margin: auto;
+  }
+
+  .ads {
+    padding: 1px 0;
+    margin-bottom: 0;
+  }
+
+  .header-tablet {
+    padding: 8px;
+  }
+
+  .header-tablet-first input, .header-tablet-first ul, .switch-bg, .header-tablet-second {
+    display: none;
+  }
+
+  .header-tablet-first {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .main-page {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .main-title {
+    margin-bottom: 8px;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 100%;
+  }
+
+  .main-title-photo {
+    padding: 110px 0;
+  }
+
+  .main-tags {
+    padding: 12px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .main-tags h3 {
+    font-weight: 700;
+    font-size: 125%;
+    line-height: 100%;
+  }
+
+  .main-tags-photo-text {
+    width: 100%;
+  }
+
+  .main-tags-photo {
+    padding: 91px 0;
+  }
+
+  .main-tag-div {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .main-tag {
+    gap: 8px;
+  }
+
+  .tag-btn {
+    border: 0;
+    font-weight: 500;
+    font-size: 87.5%;
+    line-height: 120%;
+  }
+
+  .main-tag-text p {
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 140%;
+  }
+
+  .main-news-tablet {
+    padding: 12px;
+  }
+
+  .news-par:nth-child(3) {
+    display: none;
+  }
+
+  .news-par {
+    width: 50%;
+  }
+
+  .first, .second, .third {
+    padding: 8px;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .first-card:nth-child(3) {
+    display: block;
+  }
+
+  .first-card, .second-card, .second-card:nth-child(even), .third-card, .third-card:nth-child(even) {
+    width: 100%;
+  }
+
+  .second-container {
+    gap: 8px;
+  }
+
+  .second-card:nth-child(4) {
+    display: none;
+  }
+
+  .fourth {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .fourth-card-add {
+    width: 86px;
+  }
+
+  .fourth-card-test {
+    width: 24px;
+  }
+
+  .fourth-card-text {
+    width: 249px;
+    padding: 12px;
+    background-color: #000;
+  }
+
+  .fourth-card-text h1 {
+    font-weight: 500;
+    font-size: 88.84%;
+    line-height: 140%;
+    color: #fff;
+  }
+
+  .fourth-card-test p {
+    font-weight: 400;
+    font-size: 87.5%;
+    line-height: 140%;
+  }
+
+  #second {
+    display: block;
   }
 }
