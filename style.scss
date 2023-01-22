@@ -582,6 +582,10 @@
     gap: 26px;
 }
 
+.fifth-btn-phone{
+    display: none;
+}
+
 .fifth-btn button{
     width: 100%;
     background-color: #000000;
@@ -1199,6 +1203,10 @@
         gap: 24px;
     }
 
+    .subscribe-btn{
+        padding: 31.5px 0;
+    }
+
     .fifth-subscribe input{
         width: 100%;
         padding: 41px 0;
@@ -1495,15 +1503,15 @@
     }
 
     .fourth-card-add{
-        width: 86px;
+        width: 23.958%;
     }
 
     .fourth-card-test{
-        width: 24px;
+        width: 6.688%;
     }
 
     .fourth-card-text{
-        width: 249px;
+        width: 69.36%;
         padding: 12px;
         background-color: #000;
     }
@@ -1523,5 +1531,164 @@
 
     #second{
         display: block;
+    }
+
+    .fifth{
+        padding: 0 8px;
+        gap: 8px;
+    }
+
+    .fifth-btn-phone{
+        width: 100%;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .fifth-btn-phone button{
+        width: 100%;
+        background-color: #000000;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 156.25%;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.019em;
+        color: #FFFFFF;
+        padding: 19.5px 0;
+    }
+
+    .fifth-container{
+        gap: 8px;
+    }
+
+    .fifth-color{
+        padding: 16px 12px 12px 12px;
+    }
+
+    .fifth-color img{
+        width: 33.3%;
+    }
+
+    .fifth-color h1{
+        padding-top: 12px;
+        font-weight: 700;
+        font-size: 156.25%;
+        line-height: 110%;
+    }
+
+    .fifth-subscribe{
+        padding: 12px;
+        gap: 16px;
+    }
+
+    .fifth-subscribe input{
+        padding: 16px 0;
+    }
+
+    .fifth-subscribe input::placeholder{
+        font-weight: 500;
+        font-size: 156.25%;
+        line-height: 120%;
+    }
+
+    .subscribe-btn{
+        font-weight: 600;
+        font-size: 156.25%;
+        line-height: 100%;
+        padding: 15.5px 0;
+    }
+
+    .six{
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .six-left-tablet{
+        padding: 12px;
+        gap: 196px;
+    }
+
+    .six-left-tablet h1{
+        font-weight: 600;
+        font-size: 156.25%;
+        line-height: 110%;
+    }
+
+    .six-right{
+        padding: 12px;
+        gap: 16px;
+        font-weight: 600;
+        font-size: 156.25%;
+        line-height: 110%;
+    }
+
+    .six-right-bottom, .six-right-top{
+        gap: 16px;
+    }
+
+    .six-right-bottom h3:nth-child(1){
+        font-weight: 800;
+    }
+
+    .six-btn{
+        background-color: #EA2E34;
+        font-weight: 600;
+        font-size: 100%;
+        line-height: 100%;
+        text-transform: uppercase;
+        padding: 15.5px 0;
+    }
+
+    .seven{
+        padding: 0 8px;
+        gap: 8px;
+    }
+
+    .seven-first-text h1, .seven-btn{
+        font-weight: 600;
+        font-size: 156.25%;
+        line-height: 100%;
+    }
+
+    .seven-first-button{
+        padding-top: 64px;
+    }
+
+    .seven-btn{
+        padding: 15.5px 0;
+    }
+
+    .seven-second{
+        width: 80px;
+        padding: 11px 0;
+    }
+
+    .seven-third{
+        width: 271px;
+        padding: 155.5px 0;
+    }
+
+    .seven-second h2{
+        font-weight: 800;
+        font-size: 112.5%;
+        line-height: 110%;
+    }
+
+    .footer-tablet{
+        padding: 8px 8px 16px 8px;
+    }
+
+    .footer-tablet img{
+        width: 100%;
+    }
+
+    .facebook{
+        left: 44px;
+        top: 134px;
+    }
+
+    .vk{
+        left: 167px;
+        top: 186px;
     }
 }
